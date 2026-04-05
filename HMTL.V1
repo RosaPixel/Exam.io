@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <title>Exam.io</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+  <body> 
+    <div class="título">
+      <h1>Exam.io</h1>
+      <h3>RDW? Basólifos? Eosinófilos? VPM não era aquela coisa que você instala no computador? Que diabo é tudo isso? Calma, meu docinho de caju. Coloca os valores do seu exame de sangue aqui que eu te digo se os níveis estão normais.</h3>
