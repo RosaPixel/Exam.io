@@ -1,0 +1,254 @@
+//Gen = prompt("Paciente F ou M?: ");
+
+//if (Gen != F && Gen != M)
+//{alert("Resposta inválida! Por favor responda somente F ou M");}
+
+hemacias = prompt("Hemácias: ");
+hemo = prompt("Hemoglobina: ");
+hematocrito = prompt("Hematócrito: ");
+vcm = prompt ("VCM: ")
+hcm = prompt ("HCM: ")
+chcm = prompt ("CHCM: ")
+rdw = prompt ("RDW: ")
+leu = prompt ("Leucócitos: ")
+baso = prompt ("Basófilos: ")
+eosi = prompt ("Eosinófilos: ")
+mielo = prompt ("Mielócitos: ")
+metam = prompt ("Metamielócitos: ")
+bast = prompt ("Bastonetes/Bastões: ")
+neu = prompt ("Neutrófilos (Segmentados): ")
+linf = prompt ("Linfócitos: ")
+linfAti = prompt ("Linfócitos Atípicos: ")
+mono = prompt ("Monócitos: ")
+vpm = prompt ("VPM: ")
+plaque = prompt ("Plaquetócrito: ")
+pdw = prompt ("PDW: ")
+
+document.write(`Hemácias: ${hemacias}<br>`);
+
+if (hemacias >= 0.5 && hemacias <= 5.0) {
+  document.write(`NÍVEL NORMAL<br>`);
+}
+if (hemacias < 0.5) {
+  document.write(`NÍVEL BAIXO<br>`);
+} 
+if (hemacias > 5.0) {
+  document.write(`NÍVEL ALTO<br>`);
+}
+
+document.write(`Hemoglobina: ${hemo}<br>`);
+
+if (hemo >= 2.0 && hemo <= 15.0) {
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (hemo < 2.0){
+  document.write(`NÍVEL BAIXO<br>`)
+}
+if (hemo > 15.0){
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`Hematócrito: ${hematocrito}<br>`);
+
+if (hematocrito >= 5.0 && hematocrito <= 45) {
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (hematocrito < 5.0){
+  document.write(`NÍVEL BAIXO<br>`)
+}
+if (hematocrito > 45){
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`VCM: ${vcm}<br>`);
+
+if (vcm >= 80.0 && vcm <= 100) {
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (vcm < 80.0){
+  document.write(`NÍVEL BAIXO<br>`)
+}
+if (vcm > 100){
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`HCM: ${hcm}<br>`);
+
+if (hcm >= 26 && x <= 34) {
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (hcm < 26){
+  document.write(`NÍVEL BAIXO<br>`)
+}
+if (hcm > 34){
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`CHCM: ${chcm}<br>`);
+
+if (chcm >= 31.0 && x <= 37.0) {
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (chcm < 31.0) {
+  document.write(`NÍVEL BAIXO<br>`)
+}
+if (chcm > 37.0) {
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`RDW: ${rdw}<br>`);
+
+if (rdw >= 11 && rdw <= 15) {
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (rdw < 11){
+  document.write(`NÍVEL BAIXO<br>`)
+}
+if (rdw > 15){
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`Leucócitos: ${leu}<br>`);
+
+if (leu >= 4.0 && leu <= 10.0) {
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (leu < 4.0){
+  document.write(`NÍVEL BAIXO<br>`)
+}
+if (leu > 10.0){
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`Basófilos: ${baso}<br>`);
+
+if (baso >= 0.02 && baso <= 0.1) {
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (baso < 0.02){
+  document.write(`NÍVEL BAIXO<br>`)
+}
+if (baso > 0.1){
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`Eosinófilos: ${eosi}<br>`);
+
+if (eosi >= 0.02 && eosi <= 0.5){
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (eosi < 0.02){
+  document.write(`NÍVEL BAIXO<br>`)
+}
+if (eosi > 0.5){
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`Mielócitos: ${mielo}<br>`);
+
+if (eosi = 0){
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (mielo != 0) {
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`Metamielócitos: ${metam}<br>`);
+
+if (metam == 0){
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (metam > 0) {
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+
+document.write(`Bastonetes/Bastões: ${bast}<br>`);
+
+if (bast == 0) {
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (bast > 0){
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`Neutrófilos (Segmentados): ${neu}<br>`);
+
+if (neu >= 2.0 && neu <= 7.0){
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (neu < 2.0){
+  document.write(`NÍVEL BAIXO<br>`)
+}
+if (neu > 7.0){
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`Linfócitos: ${linf}<br>`);
+
+if (linf >= 1 && linf <= 3){
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (linf < 1){
+  document.write(`NÍVEL BAIXO<br>`)
+}
+if (linf > 3){
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`Linfócitos Atípicos: ${linfAti}<br>`);
+
+if (linfAti == 0) {
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (linfAti > 0){
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`Monócitos: ${mono}<br>`);
+
+if (mono >= 0.2 && mono <= 1.0){
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (mono < 0.2){
+  document.write(`NÍVEL BAIXO<br>`)
+}
+if (mono > 1.0){
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`VPM: ${vpm}<br>`);
+
+if (vpm >= 7.2 && vpm <= 11.7){
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (vpm < 7.2){
+  document.write(`NÍVEL BAIXO<br>`)
+}
+if (vpm > 11.7){
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`Plaquetócrito: ${plaque}%<br>`);
+
+if (plaque >= 0.1 && plaque <= 0.5){
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (plaque < 0.1){
+  document.write(`NÍVEL BAIXO<br>`)
+}
+if (plaque > 0.5){
+  document.write(`NÍVEL ALTO<br>`)
+}
+
+document.write(`PDW: ${pdw}%<br>`);
+
+if (pdw >= 9 && pdw <= 17){
+  document.write(`NÍVEL NORMAL<br>`)
+}
+if (pdw < 9){
+  document.write(`NÍVEL BAIXO<br>`)
+}
+if (pdw > 17){
+  document.write(`NÍVEL ALTO<br>`)
+}
