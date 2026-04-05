@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Exam.io</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+  <body> 
+    <div class="título">
+      <h1>Exam.io</h1>
+      <h3>RDW? Basólifos? Eosinófilos? VPM não era aquela coisa que você instala no computador? Que diabo é tudo isso? Calma, meu docinho de caju. Coloca os valores aqui que eu te digo se os níveis estão normais.</h3>
+      <h3>Hemácias</h3>
+      <input type="number" id="hemacias" step="0.01">
+      <h3>Hemoglobina</h3>
+      <input type="number" id="hemo" step="0.01">
+      <h3>Hematócrito</h3>
+      <input type="number" id="hematocrito" step="0.01">
+      <h3>Volume Corpuscular Médio (VCM)</h3>
+      <input type="number" id="vcm" step="0.01">
+      <h3>Hemoglobina Corporal Média (HCM)</h3>
+      <input type="number" id="hcm" step="0.01">
+      <h3>Concentração Hemoglobina (CHCM)</h3>
+      <input type="number" id="chcm" step="0.01">
+      <h3>RDW</h3>
+      <input type="number" id="rdw" step="0.01">
+      <h3>Leucócitos</h3>
+      <input type="number" id="leuco" step="0.01">
+      <h3>Basófilos</h3>
+      <input type="number" id="baso" step="0.01">
+      <h3>Eosinófilos</h3>
+      <input type="number" id="eosi" step="0.01">
+      <h3>Mielócitos</h3>
+      <input type="number" id="mielo" step="0.01">
+      <h3>Metamielócitos</h3>
+      <input type="number" id="metam" step="0.01">
+      <h3>Bastões</h3>
+      <input type="number" id="bast" step="0.01">
+      <h3>Segmentados</h3>
+      <input type="number" id="seg" step="0.01">
+      <h3>Linfócitos</h3>
+      <input type="number" id="linf" step="0.01">
+      <h3>Linfócitos atípicos</h3>
+      <input type="number" id="linfAti" step="0.01">
+      <h3>Monócitos</h3>
+      <input type="number" id="monoc" step="0.01">
+      <h3>VPM</h3>
+      <input type="number" id="vpm" step="0.01">
+      <h3>Plaquetócrito</h3>
+      <input type="number" id="plaqu" step="0.01">
+      <h3>PDW</h3>
+      <input type="number" id="pdw" step="0.01">
