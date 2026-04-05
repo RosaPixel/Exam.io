@@ -1,0 +1,29 @@
+var hemacias = document.getElementById("hemacias").value;
+var hemo = document.getElementById("hemo").value;
+var hematocrito = document.getElementById("hematocrito").value;
+var vcm = document.getElementById("vcm".value);
+var hcm = document.getElementById("hcm").value;
+var chcm = document.getElementById("chcm").value;
+var rdw = document.getElementById("rdw").value;
+var leuco = document.getElementById("leuco").value;
+var baso = document.getElementById("baso").value;
+var eosi = document.getElementById("eosi").value;
+var mielo = document.getElementById("mielo").value;
+var metam = document.getElementById("metam").value;
+var bast = document.getElementById("bast").value;
+var seg = document.getElementById("seg").value;
+var linf = document.getElementById("linf").value;
+var linfAti = document.getElementById("linfAti").value;
+var monoc = document.getElementById("monoc").value;
+var vpm = document.getElementById("vpm").value;
+var plaqu = document.getElementById("plaqu").value;
+var pdw = document.getElementById("pdw").value;
+
+for (let i=0; i<1; i++)
+  {
+    if (hemacias<5 && hemacias>0.5)
+      {document.write("Hemácias NORMAIS");}
+        else if(hemacias>0.5 && hemacias<4.3)
+          {document.write("Hemácias NORMAIS para gênero F")}
+        
+  }
